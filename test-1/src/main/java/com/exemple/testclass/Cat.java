@@ -1,6 +1,8 @@
 package com.exemple.testclass;
 
-public class Cat {
+public class Cat extends Animal {
+
+    private static final String ANIMAL_FAMILY = "Семейство кошачьих";
 
     private String name;
     private int age;
